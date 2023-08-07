@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Word Counter</title>
+</head>
+<body class="p-6 flex flex-col items-center text-center bg-sky-100">
+    <h1 class="font-bold text-2xl">Word Counter Application</h1>
+    <textarea onkeyup="keyHasBeenClicked()"class="border border-black rounded-lg mt-4  mb-4 w-9/12 p-4 outline-none"name="" id="deepu" cols="30" rows="10"></textarea>
+    <p>Total Words: <span class="wordCount">0</span></p>
+    <p>Total Characters: <span class="charCount">0</span></p>
+    <button class="border border-black py-1 my-2 w-24 clearButton">Clear</button>
+    <p>TOtal Characters Allowed : 200 || TOtal Characters Left : <span class="charLimitSpan">200</span></p>
+
+    <script src="./code.js"></script>
+</body>
+</html>
+
+
